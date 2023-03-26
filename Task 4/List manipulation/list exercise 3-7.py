@@ -8,6 +8,7 @@ while len(guest_list) > 2:
     print(f"Sorry {cannot_attend}, I cannot invite you to the dinner.")
 
 for guest in guest_list:
+
     print(f"Dear {guest}, you are still invited to the dinner.")
 
 del guest_list[0]
