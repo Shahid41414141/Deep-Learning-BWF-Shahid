@@ -1,0 +1,13 @@
+
+
+In deep learning, a model is trained on a set of data to learn a mapping between input and output. However, during training, the model can be affected by two common problems: underfitting and overfitting.
+
+Underfitting occurs when the model is too simple and cannot capture the underlying patterns in the data. This means that the model is not able to learn the training data well enough and is likely to perform poorly on unseen data. Underfitting can be addressed by using a more complex model or by adding more features to the input.
+
+On the other hand, overfitting occurs when the model is too complex and is able to perfectly fit the training data but does not generalize well to unseen data. This happens when the model learns the noise in the training data rather than the underlying patterns. Overfitting can be addressed by using regularization techniques.
+
+Regularization is a technique used to prevent overfitting by adding a penalty term to the loss function during training. This penalty term discourages the model from assigning too much importance to any single feature and encourages it to learn more generalizable patterns. There are several regularization techniques such as L1 and L2 regularization, dropout, and early stopping.
+
+L1 regularization adds a penalty term proportional to the absolute value of the weights in the model, which encourages the model to learn sparse representations. L2 regularization adds a penalty term proportional to the squared value of the weights, which encourages the model to learn smaller weights. Dropout is a technique where some neurons are randomly dropped during training, which prevents the model from relying too heavily on any single neuron. Early stopping is a technique where the training is stopped when the performance on a validation set stops improving, which prevents the model from overfitting.
+
+In summary, underfitting and overfitting are common problems in deep learning, but can be addressed by using a more complex or simpler model respectively, or by applying regularization techniques such as L1 or L2 regularization, dropout, or early stopping.
